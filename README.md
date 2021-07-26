@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/9htpyt9fnapc36pe?svg=true)](https://ci.appveyor.com/project/Yu-Smirnova/aqa-hw-2-2-card-delivery-order)
