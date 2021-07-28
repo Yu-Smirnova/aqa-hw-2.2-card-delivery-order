@@ -1,18 +1,16 @@
 package ru.netology;
 
-import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.*;
-
-
-import com.codeborne.selenide.*;
+import com.codeborne.selenide.Condition;
+import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.Test;
 
 import java.time.Duration;
 import java.time.LocalDate;
 
-import java.time.format.DateTimeFormatter;
+import static com.codeborne.selenide.Selectors.byText;
+import static com.codeborne.selenide.Selenide.$;
 
-public class CardDeliveryOrderTest {
+public class CardDeliveryOrderWithComplexElementTest {
 
     @Test
     void shouldSentCardOrderWithAllDataAndComplexElements() {
